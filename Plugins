@@ -1,0 +1,62 @@
+Community Applications
+The One Stop Shop for all applications for unRaid
+
+Dynamix System Statistics
+Dynamix System Stats shows in real-time the disk utilizations and critical system recources, such CPU usage, memory usage, interface bandwidth and disk I/O bandwidth.
+
+Recycle Bin
+This plugin adds a per share '.Recycle.Bin' folder to hold samba deleted files until you empty the trash either manually or remove aged files on a schedule. A '.Recycle.Bin' folder is created in each share the first time a file is deleted in the share that you can access by browsing to //Tower/Share/.Recycle.Bin. You can restore deleted files from the //Tower/Share/.Recycle.Bin. The User access to the '.Recycle.Bin' folder is the same as the User share access. If you remove the plugin all deleted files will be kept in the share '.Recycle.Bin' folders. You will have to empty the trash before you remove the plugin if you do not want to use it.
+
+Tips and Tweaks
+This plugin lets you change certain Linux settings that may improve performance of your Unraid server. If you remove the tips.and.tweaks plugin, the last settings will remain until Unraid is rebooted.
+
+CA Auto Update Applications
+Part of the CA family, Auto Update Applications will keep your selected plugins and docker applications up to date
+
+CA Backup / Restore Appdata
+Part of the CA family, CA Backup / Restore Appdata will either manually or on a schedule, automatically backup your docker appdata for easy restoring in case of a cache drive failure
+
+Dynamix Active Streams
+Dynamix Active Streams shows in real-time any open SMB, AFP and Plex network streams. This allows instant view of who is accessing the server - either by host address or user name - and see what content is opened. Optionally streams can be stopped from the GUI.
+
+Dynamix Auto Fan Control
+Dynamix Auto Fan Control allows automatic fan control based on the system temperature. High and low thresholds are used to speed up or speed down the fan. This is a new plugin and still under development.
+
+Dynamix Cache Directories
+Dynamix Cache Directories keeps folder information in memory to prevent unnecessary disk spin up. Dynamix builds a GUI front-end to allow entering of parameters for the cache_dirs script which is running in the background.
+
+Dynamix SSD TRIM
+Dynamix SSD trim creates a cronjob to do regular SSD TRIM operations on all mount points which support the operation. The command 'fstrim -a -v' is executed at the given interval.
+
+Dynamix System Information
+Dynamix System Information shows various details of your system hardware and BIOS. This includes processor, memory and sub-system components.
+
+Dynamix System Temperature
+Dynamix System Temperature shows in real-time the temperature of the system CPU and motherboard. Temperatures can be displayed in Celsius or Fahrenheit. Your hardware must support the necessary probes, and additional software drivers may be required too.
+
+File Activity
+This plugin displays recent read/write/modify file activity on each disk, UD disks, and the cache in the Array. It can help to understand why disks are spinning up from read/write/modify file activity.
+
+Fix Common Problems
+A Plugin to diagnose and suggest fixes for common problems, configuration mistakes, etc.
+
+Nerd Tools
+Go to NerdPack in Settings to install extra CLI packages for advanced users. Use at your own risk. Not officially supported by LimeTech. Contains: iftop, iotop, screen, lshw, kbd, unrar, bwm-ng, strace, git, lftp, subversion, python, sshfs, iperf, p7zip...60+ packages
+
+Open Files
+This plugin shows any open files on the array that might prevent a clean shutdown. The plugin web page is installed in 'Tools'. You can stop all array and troubleshoot shutdown problems from open files. After you stop all array processes, you will see what processes are still holding files open on the array preventing a shutdown.
+
+Preclear Disks
+This plugin is a parser for Joe L.'s excellent Preclear Disk Script. It also includes a fast post-read verify option, courtesy of bjp999.
+
+Statistics
+This plugin is used to send statistics anonymously using Google Forms. Don't worry, you will be asked before sending every report.
+
+Unassigned Devices
+This plugin uses UDEV to automount and share disks that are not part of your Unraid array. Available devices are listed under the "Main/Unassigned Devices" tab.
+
+unBALANCE
+unBALANCE frees up space from one disk in your array, by moving the user shares folders you select to other disks in the array.	
+
+User Scripts
+A plugin to act as a simple front end for any user scripts to allow you to run them without entering the command line
